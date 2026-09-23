@@ -1,0 +1,192 @@
+id,name,school,primaryEmailAddress.value,socialLinks,profileUrl
+demo-0001,Marvin Jensen,Massachusetts Institute of Technology,marvin.jensen@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-marvin-jensen'}, {'type': 'GitHub', 'url': 'https://github.com/demo-marvin-jensen'}]",https://app.ashbyhq.com/demo/demo-0001
+demo-0002,Tariq Iyer,Massachusetts Institute of Technology,tariq.iyer@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-tariq-iyer'}]",https://app.ashbyhq.com/demo/demo-0002
+demo-0003,Zane Gallagher,Massachusetts Institute of Technology,zane.gallagher@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-zane-gallagher'}, {'type': 'GitHub', 'url': 'https://github.com/demo-zane-gallagher'}]",https://app.ashbyhq.com/demo/demo-0003
+demo-0004,Sanjay Eriksen,Massachusetts Institute of Technology,sanjay.eriksen@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-sanjay-eriksen'}]",https://app.ashbyhq.com/demo/demo-0004
+demo-0005,Katherine Khan,Massachusetts Institute of Technology,katherine.khan@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-katherine-khan'}, {'type': 'GitHub', 'url': 'https://github.com/demo-katherine-khan'}]",https://app.ashbyhq.com/demo/demo-0005
+demo-0006,Greta Lombardi,Massachusetts Institute of Technology,greta.lombardi@example.com,[],https://app.ashbyhq.com/demo/demo-0006
+demo-0007,Rosa Dubois,Massachusetts Institute of Technology,rosa.dubois@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-rosa-dubois'}]",https://app.ashbyhq.com/demo/demo-0007
+demo-0008,Vikram Ibrahim,Massachusetts Institute of Technology,vikram.ibrahim@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-vikram-ibrahim'}, {'type': 'GitHub', 'url': 'https://github.com/demo-vikram-ibrahim'}]",https://app.ashbyhq.com/demo/demo-0008
+demo-0009,Dorothy Khan,Massachusetts Institute of Technology,dorothy.khan@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-dorothy-khan'}]",https://app.ashbyhq.com/demo/demo-0009
+demo-0010,Claude Gupta,Massachusetts Institute of Technology,claude.gupta@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-claude-gupta'}]",https://app.ashbyhq.com/demo/demo-0010
+demo-0011,Priya Gupta,Massachusetts Institute of Technology,priya.gupta@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-priya-gupta'}, {'type': 'GitHub', 'url': 'https://github.com/demo-priya-gupta'}]",https://app.ashbyhq.com/demo/demo-0011
+demo-0012,Katherine Novak,Massachusetts Institute of Technology,katherine.novak@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-katherine-novak'}]",https://app.ashbyhq.com/demo/demo-0012
+demo-0013,Tomas Ueda,Massachusetts Institute of Technology,tomas.ueda@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-tomas-ueda'}]",https://app.ashbyhq.com/demo/demo-0013
+demo-0014,Priya Tanaka,Massachusetts Institute of Technology,priya.tanaka@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-priya-tanaka'}, {'type': 'GitHub', 'url': 'https://github.com/demo-priya-tanaka'}]",https://app.ashbyhq.com/demo/demo-0014
+demo-0015,Pablo Petrov,Columbia University,pablo.petrov@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-pablo-petrov'}]",https://app.ashbyhq.com/demo/demo-0015
+demo-0016,Xavier Vasquez,Columbia University,xavier.vasquez@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-xavier-vasquez'}, {'type': 'GitHub', 'url': 'https://github.com/demo-xavier-vasquez'}]",https://app.ashbyhq.com/demo/demo-0016
+demo-0017,Jean Hayashi,Columbia University,jean.hayashi@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-jean-hayashi'}, {'type': 'GitHub', 'url': 'https://github.com/demo-jean-hayashi'}]",https://app.ashbyhq.com/demo/demo-0017
+demo-0018,Nadia Jensen,Columbia University,nadia.jensen@example.com,[],https://app.ashbyhq.com/demo/demo-0018
+demo-0019,Imani Eriksen,Columbia University,imani.eriksen@example.com,[],https://app.ashbyhq.com/demo/demo-0019
+demo-0020,Xiomara Ueda,Columbia University,xiomara.ueda@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-xiomara-ueda'}]",https://app.ashbyhq.com/demo/demo-0020
+demo-0021,Xavier Lombardi,Columbia University,xavier.lombardi@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-xavier-lombardi'}]",https://app.ashbyhq.com/demo/demo-0021
+demo-0022,Mary Rosenberg,Columbia University,mary.rosenberg@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-mary-rosenberg'}]",https://app.ashbyhq.com/demo/demo-0022
+demo-0023,Katherine Tanaka,Columbia University,katherine.tanaka@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-katherine-tanaka'}]",https://app.ashbyhq.com/demo/demo-0023
+demo-0024,Tariq Choi,Columbia University,tariq.choi@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-tariq-choi'}]",https://app.ashbyhq.com/demo/demo-0024
+demo-0025,Imani Whitfield,Columbia University,imani.whitfield@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-imani-whitfield'}]",https://app.ashbyhq.com/demo/demo-0025
+demo-0026,Barbara Novak,Columbia University,barbara.novak@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-barbara-novak'}, {'type': 'GitHub', 'url': 'https://github.com/demo-barbara-novak'}]",https://app.ashbyhq.com/demo/demo-0026
+demo-0027,Pablo Silva,New York University,pablo.silva@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-pablo-silva'}, {'type': 'GitHub', 'url': 'https://github.com/demo-pablo-silva'}]",https://app.ashbyhq.com/demo/demo-0027
+demo-0028,Rosa Fontaine,New York University,rosa.fontaine@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-rosa-fontaine'}]",https://app.ashbyhq.com/demo/demo-0028
+demo-0029,Bryce Rosenberg,New York University,bryce.rosenberg@example.com,[],https://app.ashbyhq.com/demo/demo-0029
+demo-0030,Wren Jacobs,New York University,wren.jacobs@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-wren-jacobs'}]",https://app.ashbyhq.com/demo/demo-0030
+demo-0031,Omar Yamamoto,New York University,omar.yamamoto@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-omar-yamamoto'}]",https://app.ashbyhq.com/demo/demo-0031
+demo-0032,Claude Jensen,New York University,claude.jensen@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-claude-jensen'}, {'type': 'GitHub', 'url': 'https://github.com/demo-claude-jensen'}]",https://app.ashbyhq.com/demo/demo-0032
+demo-0033,Claude Quintero,New York University,claude.quintero@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-claude-quintero'}, {'type': 'GitHub', 'url': 'https://github.com/demo-claude-quintero'}]",https://app.ashbyhq.com/demo/demo-0033
+demo-0034,Amara Xu,New York University,amara.xu@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-amara-xu'}]",https://app.ashbyhq.com/demo/demo-0034
+demo-0035,Evelyn Gallagher,New York University,evelyn.gallagher@example.com,[],https://app.ashbyhq.com/demo/demo-0035
+demo-0036,Nils Dubois,New York University,nils.dubois@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-nils-dubois'}]",https://app.ashbyhq.com/demo/demo-0036
+demo-0037,Rosa Zhang,New York University,rosa.zhang@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-rosa-zhang'}, {'type': 'GitHub', 'url': 'https://github.com/demo-rosa-zhang'}]",https://app.ashbyhq.com/demo/demo-0037
+demo-0038,Greta Zhang,Cornell University,greta.zhang@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-greta-zhang'}, {'type': 'GitHub', 'url': 'https://github.com/demo-greta-zhang'}]",https://app.ashbyhq.com/demo/demo-0038
+demo-0039,Edsger Choi,Cornell University,edsger.choi@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-edsger-choi'}]",https://app.ashbyhq.com/demo/demo-0039
+demo-0040,Katherine Gupta,Cornell University,katherine.gupta@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-katherine-gupta'}, {'type': 'GitHub', 'url': 'https://github.com/demo-katherine-gupta'}]",https://app.ashbyhq.com/demo/demo-0040
+demo-0041,Annie Xu,Cornell University,annie.xu@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-annie-xu'}, {'type': 'GitHub', 'url': 'https://github.com/demo-annie-xu'}]",https://app.ashbyhq.com/demo/demo-0041
+demo-0042,Edsger Novak,Cornell University,edsger.novak@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-edsger-novak'}]",https://app.ashbyhq.com/demo/demo-0042
+demo-0043,Omar Moreau,Cornell University,omar.moreau@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-omar-moreau'}, {'type': 'GitHub', 'url': 'https://github.com/demo-omar-moreau'}]",https://app.ashbyhq.com/demo/demo-0043
+demo-0044,Vikram Fontaine,Cornell University,vikram.fontaine@example.com,[],https://app.ashbyhq.com/demo/demo-0044
+demo-0045,Wanda Tanaka,Cornell University,wanda.tanaka@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-wanda-tanaka'}, {'type': 'GitHub', 'url': 'https://github.com/demo-wanda-tanaka'}]",https://app.ashbyhq.com/demo/demo-0045
+demo-0046,Nadia Quintero,Cornell University,nadia.quintero@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-nadia-quintero'}]",https://app.ashbyhq.com/demo/demo-0046
+demo-0047,Zoe Bennett,Cornell University,zoe.bennett@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-zoe-bennett'}]",https://app.ashbyhq.com/demo/demo-0047
+demo-0048,Priya Jensen,Stanford University,priya.jensen@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-priya-jensen'}]",https://app.ashbyhq.com/demo/demo-0048
+demo-0049,Olga Hoffman,Stanford University,olga.hoffman@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-olga-hoffman'}]",https://app.ashbyhq.com/demo/demo-0049
+demo-0050,Mary Quintero,Stanford University,mary.quintero@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-mary-quintero'}]",https://app.ashbyhq.com/demo/demo-0050
+demo-0051,Omar Okafor,Stanford University,omar.okafor@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-omar-okafor'}]",https://app.ashbyhq.com/demo/demo-0051
+demo-0052,Nadia Okafor,Stanford University,nadia.okafor@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-nadia-okafor'}]",https://app.ashbyhq.com/demo/demo-0052
+demo-0053,Olga Mbeki,Stanford University,olga.mbeki@example.com,[],https://app.ashbyhq.com/demo/demo-0053
+demo-0054,Nils Okafor,Stanford University,nils.okafor@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-nils-okafor'}]",https://app.ashbyhq.com/demo/demo-0054
+demo-0055,Maya Bennett,Stanford University,maya.bennett@example.com,[],https://app.ashbyhq.com/demo/demo-0055
+demo-0056,Wanda Quintero,Stanford University,wanda.quintero@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-wanda-quintero'}]",https://app.ashbyhq.com/demo/demo-0056
+demo-0057,Omar Choi,"University of California, Berkeley",omar.choi@example.com,[],https://app.ashbyhq.com/demo/demo-0057
+demo-0058,Omar Xu,"University of California, Berkeley",omar.xu@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-omar-xu'}, {'type': 'GitHub', 'url': 'https://github.com/demo-omar-xu'}]",https://app.ashbyhq.com/demo/demo-0058
+demo-0059,Wanda Mbeki,"University of California, Berkeley",wanda.mbeki@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-wanda-mbeki'}]",https://app.ashbyhq.com/demo/demo-0059
+demo-0060,Yara Novak,"University of California, Berkeley",yara.novak@example.com,[],https://app.ashbyhq.com/demo/demo-0060
+demo-0061,Hugo Whitfield,"University of California, Berkeley",hugo.whitfield@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-hugo-whitfield'}]",https://app.ashbyhq.com/demo/demo-0061
+demo-0062,Imani Hayashi,"University of California, Berkeley",imani.hayashi@example.com,[],https://app.ashbyhq.com/demo/demo-0062
+demo-0063,Wanda Lindqvist,"University of California, Berkeley",wanda.lindqvist@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-wanda-lindqvist'}]",https://app.ashbyhq.com/demo/demo-0063
+demo-0064,Mary Zhang,"University of California, Berkeley",mary.zhang@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-mary-zhang'}]",https://app.ashbyhq.com/demo/demo-0064
+demo-0065,Mary Kowalski,"University of California, Berkeley",mary.kowalski@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-mary-kowalski'}, {'type': 'GitHub', 'url': 'https://github.com/demo-mary-kowalski'}]",https://app.ashbyhq.com/demo/demo-0065
+demo-0066,Alonzo Lombardi,Carnegie Mellon University,alonzo.lombardi@example.com,[],https://app.ashbyhq.com/demo/demo-0066
+demo-0067,Alonzo Novak,Carnegie Mellon University,alonzo.novak@example.com,[],https://app.ashbyhq.com/demo/demo-0067
+demo-0068,Alonzo Jacobs,Carnegie Mellon University,alonzo.jacobs@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-alonzo-jacobs'}, {'type': 'GitHub', 'url': 'https://github.com/demo-alonzo-jacobs'}]",https://app.ashbyhq.com/demo/demo-0068
+demo-0069,Sofia Gupta,Carnegie Mellon University,sofia.gupta@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-sofia-gupta'}]",https://app.ashbyhq.com/demo/demo-0069
+demo-0070,Tomas Mbeki,Carnegie Mellon University,tomas.mbeki@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-tomas-mbeki'}]",https://app.ashbyhq.com/demo/demo-0070
+demo-0071,Ivan Nakamura,Carnegie Mellon University,ivan.nakamura@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-ivan-nakamura'}, {'type': 'GitHub', 'url': 'https://github.com/demo-ivan-nakamura'}]",https://app.ashbyhq.com/demo/demo-0071
+demo-0072,Dmitri Ueda,Carnegie Mellon University,dmitri.ueda@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-dmitri-ueda'}]",https://app.ashbyhq.com/demo/demo-0072
+demo-0073,Evelyn Dubois,Carnegie Mellon University,evelyn.dubois@example.com,[],https://app.ashbyhq.com/demo/demo-0073
+demo-0074,Victor Lombardi,Harvard University,victor.lombardi@example.com,[],https://app.ashbyhq.com/demo/demo-0074
+demo-0075,Tariq Gallagher,Harvard University,tariq.gallagher@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-tariq-gallagher'}, {'type': 'GitHub', 'url': 'https://github.com/demo-tariq-gallagher'}]",https://app.ashbyhq.com/demo/demo-0075
+demo-0076,Yusuf Bennett,Harvard University,yusuf.bennett@example.com,[],https://app.ashbyhq.com/demo/demo-0076
+demo-0077,Elena Alvarez,Harvard University,elena.alvarez@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-elena-alvarez'}]",https://app.ashbyhq.com/demo/demo-0077
+demo-0078,Alonzo Emerson,Harvard University,alonzo.emerson@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-alonzo-emerson'}, {'type': 'GitHub', 'url': 'https://github.com/demo-alonzo-emerson'}]",https://app.ashbyhq.com/demo/demo-0078
+demo-0079,Katherine Ueda,Harvard University,katherine.ueda@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-katherine-ueda'}]",https://app.ashbyhq.com/demo/demo-0079
+demo-0080,Wanda Gupta,Harvard University,wanda.gupta@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-wanda-gupta'}]",https://app.ashbyhq.com/demo/demo-0080
+demo-0081,Donald Rosenberg,Baruch College,donald.rosenberg@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-donald-rosenberg'}, {'type': 'GitHub', 'url': 'https://github.com/demo-donald-rosenberg'}]",https://app.ashbyhq.com/demo/demo-0081
+demo-0082,Uma Jacobs,Baruch College,uma.jacobs@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-uma-jacobs'}]",https://app.ashbyhq.com/demo/demo-0082
+demo-0083,Jean Choi,Baruch College,jean.choi@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-jean-choi'}]",https://app.ashbyhq.com/demo/demo-0083
+demo-0084,Elena Gallagher,Baruch College,elena.gallagher@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-elena-gallagher'}, {'type': 'GitHub', 'url': 'https://github.com/demo-elena-gallagher'}]",https://app.ashbyhq.com/demo/demo-0084
+demo-0085,Yusuf Iyer,Baruch College,yusuf.iyer@example.com,[],https://app.ashbyhq.com/demo/demo-0085
+demo-0086,Hedy Hoffman,Baruch College,hedy.hoffman@example.com,[],https://app.ashbyhq.com/demo/demo-0086
+demo-0087,Ivan Jacobs,Baruch College,ivan.jacobs@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-ivan-jacobs'}]",https://app.ashbyhq.com/demo/demo-0087
+demo-0088,Uma Ibrahim,Stony Brook University,uma.ibrahim@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-uma-ibrahim'}]",https://app.ashbyhq.com/demo/demo-0088
+demo-0089,Marvin Eriksen,Stony Brook University,marvin.eriksen@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-marvin-eriksen'}]",https://app.ashbyhq.com/demo/demo-0089
+demo-0090,Edsger Tanaka,Stony Brook University,edsger.tanaka@example.com,[],https://app.ashbyhq.com/demo/demo-0090
+demo-0091,Alonzo Xu,Stony Brook University,alonzo.xu@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-alonzo-xu'}]",https://app.ashbyhq.com/demo/demo-0091
+demo-0092,Victor Okafor,Stony Brook University,victor.okafor@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-victor-okafor'}, {'type': 'GitHub', 'url': 'https://github.com/demo-victor-okafor'}]",https://app.ashbyhq.com/demo/demo-0092
+demo-0093,Xiomara Fontaine,Stony Brook University,xiomara.fontaine@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-xiomara-fontaine'}]",https://app.ashbyhq.com/demo/demo-0093
+demo-0094,Frances Kowalski,University of Michigan,frances.kowalski@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-frances-kowalski'}]",https://app.ashbyhq.com/demo/demo-0094
+demo-0095,Rosa Vasquez,University of Michigan,rosa.vasquez@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-rosa-vasquez'}]",https://app.ashbyhq.com/demo/demo-0095
+demo-0096,Mary Xu,University of Michigan,mary.xu@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-mary-xu'}]",https://app.ashbyhq.com/demo/demo-0096
+demo-0097,Uma Bennett,University of Michigan,uma.bennett@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-uma-bennett'}]",https://app.ashbyhq.com/demo/demo-0097
+demo-0098,Karen Gallagher,University of Michigan,karen.gallagher@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-karen-gallagher'}]",https://app.ashbyhq.com/demo/demo-0098
+demo-0099,Zane Okafor,University of Michigan,zane.okafor@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-zane-okafor'}]",https://app.ashbyhq.com/demo/demo-0099
+demo-0100,Ivan Rosenberg,Georgia Institute of Technology,ivan.rosenberg@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-ivan-rosenberg'}]",https://app.ashbyhq.com/demo/demo-0100
+demo-0101,Jane Ibrahim,Georgia Institute of Technology,jane.ibrahim@example.com,[],https://app.ashbyhq.com/demo/demo-0101
+demo-0102,Jonas Quintero,Georgia Institute of Technology,jonas.quintero@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-jonas-quintero'}]",https://app.ashbyhq.com/demo/demo-0102
+demo-0103,Yusuf Khan,Georgia Institute of Technology,yusuf.khan@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-yusuf-khan'}]",https://app.ashbyhq.com/demo/demo-0103
+demo-0104,Jane Dubois,Georgia Institute of Technology,jane.dubois@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-jane-dubois'}]",https://app.ashbyhq.com/demo/demo-0104
+demo-0105,Yara Eriksen,Hunter College,yara.eriksen@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-yara-eriksen'}, {'type': 'GitHub', 'url': 'https://github.com/demo-yara-eriksen'}]",https://app.ashbyhq.com/demo/demo-0105
+demo-0106,Mary Moreau,Hunter College,mary.moreau@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-mary-moreau'}]",https://app.ashbyhq.com/demo/demo-0106
+demo-0107,Wren Hayashi,Hunter College,wren.hayashi@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-wren-hayashi'}]",https://app.ashbyhq.com/demo/demo-0107
+demo-0108,Bryce Abbas,Hunter College,bryce.abbas@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-bryce-abbas'}]",https://app.ashbyhq.com/demo/demo-0108
+demo-0109,Evelyn Castillo,Hunter College,evelyn.castillo@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-evelyn-castillo'}, {'type': 'GitHub', 'url': 'https://github.com/demo-evelyn-castillo'}]",https://app.ashbyhq.com/demo/demo-0109
+demo-0110,Dorothy Kowalski,Rutgers University,dorothy.kowalski@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-dorothy-kowalski'}, {'type': 'GitHub', 'url': 'https://github.com/demo-dorothy-kowalski'}]",https://app.ashbyhq.com/demo/demo-0110
+demo-0111,Nina Tanaka,Rutgers University,nina.tanaka@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-nina-tanaka'}]",https://app.ashbyhq.com/demo/demo-0111
+demo-0112,Edsger Silva,Rutgers University,edsger.silva@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-edsger-silva'}]",https://app.ashbyhq.com/demo/demo-0112
+demo-0113,Jane Whitfield,Rutgers University,jane.whitfield@example.com,[],https://app.ashbyhq.com/demo/demo-0113
+demo-0114,Alan Alvarez,Rutgers University,alan.alvarez@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-alan-alvarez'}]",https://app.ashbyhq.com/demo/demo-0114
+demo-0115,Donald Gallagher,Binghamton University,donald.gallagher@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-donald-gallagher'}]",https://app.ashbyhq.com/demo/demo-0115
+demo-0116,Annie Bertrand,Binghamton University,annie.bertrand@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-annie-bertrand'}]",https://app.ashbyhq.com/demo/demo-0116
+demo-0117,Xiomara Zhang,Binghamton University,xiomara.zhang@example.com,[],https://app.ashbyhq.com/demo/demo-0117
+demo-0118,Edsger Okafor,Binghamton University,edsger.okafor@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-edsger-okafor'}]",https://app.ashbyhq.com/demo/demo-0118
+demo-0119,Lucas Ibrahim,Fordham University,lucas.ibrahim@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-lucas-ibrahim'}]",https://app.ashbyhq.com/demo/demo-0119
+demo-0120,Katherine Ibrahim,Fordham University,katherine.ibrahim@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-katherine-ibrahim'}]",https://app.ashbyhq.com/demo/demo-0120
+demo-0121,Xiomara Quintero,Fordham University,xiomara.quintero@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-xiomara-quintero'}, {'type': 'GitHub', 'url': 'https://github.com/demo-xiomara-quintero'}]",https://app.ashbyhq.com/demo/demo-0121
+demo-0122,Imani Yamamoto,Fordham University,imani.yamamoto@example.com,[],https://app.ashbyhq.com/demo/demo-0122
+demo-0123,Karen Moreau,University of Illinois Urbana-Champaign,karen.moreau@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-karen-moreau'}, {'type': 'GitHub', 'url': 'https://github.com/demo-karen-moreau'}]",https://app.ashbyhq.com/demo/demo-0123
+demo-0124,Victor Lindqvist,University of Illinois Urbana-Champaign,victor.lindqvist@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-victor-lindqvist'}]",https://app.ashbyhq.com/demo/demo-0124
+demo-0125,Ivan Xu,University of Illinois Urbana-Champaign,ivan.xu@example.com,[],https://app.ashbyhq.com/demo/demo-0125
+demo-0126,Bryce Ueda,University of Illinois Urbana-Champaign,bryce.ueda@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-bryce-ueda'}]",https://app.ashbyhq.com/demo/demo-0126
+demo-0127,Leslie Nakamura,Northeastern University,leslie.nakamura@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-leslie-nakamura'}, {'type': 'GitHub', 'url': 'https://github.com/demo-leslie-nakamura'}]",https://app.ashbyhq.com/demo/demo-0127
+demo-0128,Quinn Farrell,Northeastern University,quinn.farrell@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-quinn-farrell'}]",https://app.ashbyhq.com/demo/demo-0128
+demo-0129,Donald Petrov,Northeastern University,donald.petrov@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-donald-petrov'}, {'type': 'GitHub', 'url': 'https://github.com/demo-donald-petrov'}]",https://app.ashbyhq.com/demo/demo-0129
+demo-0130,Ivan Farrell,Boston University,ivan.farrell@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-ivan-farrell'}]",https://app.ashbyhq.com/demo/demo-0130
+demo-0131,Rosa Bennett,Boston University,rosa.bennett@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-rosa-bennett'}]",https://app.ashbyhq.com/demo/demo-0131
+demo-0132,Mary Lombardi,Boston University,mary.lombardi@example.com,[],https://app.ashbyhq.com/demo/demo-0132
+demo-0133,Alonzo Moreau,Yale University,alonzo.moreau@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-alonzo-moreau'}]",https://app.ashbyhq.com/demo/demo-0133
+demo-0134,Xavier Jensen,Yale University,xavier.jensen@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-xavier-jensen'}]",https://app.ashbyhq.com/demo/demo-0134
+demo-0135,Alonzo Castillo,Yale University,alonzo.castillo@example.com,[],https://app.ashbyhq.com/demo/demo-0135
+demo-0136,Yusuf Bertrand,Brooklyn College,yusuf.bertrand@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-yusuf-bertrand'}]",https://app.ashbyhq.com/demo/demo-0136
+demo-0137,Evelyn Hoffman,Brooklyn College,evelyn.hoffman@example.com,[],https://app.ashbyhq.com/demo/demo-0137
+demo-0138,Tariq Bennett,Brooklyn College,tariq.bennett@example.com,[],https://app.ashbyhq.com/demo/demo-0138
+demo-0139,Yara Okafor,The City College of New York,yara.okafor@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-yara-okafor'}, {'type': 'GitHub', 'url': 'https://github.com/demo-yara-okafor'}]",https://app.ashbyhq.com/demo/demo-0139
+demo-0140,Greta Xu,The City College of New York,greta.xu@example.com,[],https://app.ashbyhq.com/demo/demo-0140
+demo-0141,Katherine Bennett,The City College of New York,katherine.bennett@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-katherine-bennett'}]",https://app.ashbyhq.com/demo/demo-0141
+demo-0142,Xavier Quintero,Pace University,xavier.quintero@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-xavier-quintero'}]",https://app.ashbyhq.com/demo/demo-0142
+demo-0143,Nils Gallagher,Pace University,nils.gallagher@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-nils-gallagher'}]",https://app.ashbyhq.com/demo/demo-0143
+demo-0144,Zoe Eriksen,Pace University,zoe.eriksen@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-zoe-eriksen'}]",https://app.ashbyhq.com/demo/demo-0144
+demo-0145,Sofia Eriksen,Rensselaer Polytechnic Institute,sofia.eriksen@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-sofia-eriksen'}]",https://app.ashbyhq.com/demo/demo-0145
+demo-0146,Olga Nakamura,Rensselaer Polytechnic Institute,olga.nakamura@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-olga-nakamura'}]",https://app.ashbyhq.com/demo/demo-0146
+demo-0147,Victor Fontaine,Syracuse University,victor.fontaine@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-victor-fontaine'}]",https://app.ashbyhq.com/demo/demo-0147
+demo-0148,Zane Silva,Syracuse University,zane.silva@example.com,[],https://app.ashbyhq.com/demo/demo-0148
+demo-0149,Hugo Mbeki,University of Texas at Austin,hugo.mbeki@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-hugo-mbeki'}, {'type': 'GitHub', 'url': 'https://github.com/demo-hugo-mbeki'}]",https://app.ashbyhq.com/demo/demo-0149
+demo-0150,Ivan Tanaka,University of Texas at Austin,ivan.tanaka@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-ivan-tanaka'}, {'type': 'GitHub', 'url': 'https://github.com/demo-ivan-tanaka'}]",https://app.ashbyhq.com/demo/demo-0150
+demo-0151,Wanda Dubois,Purdue University,wanda.dubois@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-wanda-dubois'}]",https://app.ashbyhq.com/demo/demo-0151
+demo-0152,Annie Nakamura,Purdue University,annie.nakamura@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-annie-nakamura'}, {'type': 'GitHub', 'url': 'https://github.com/demo-annie-nakamura'}]",https://app.ashbyhq.com/demo/demo-0152
+demo-0153,Zoe Silva,San Francisco State University,zoe.silva@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-zoe-silva'}]",https://app.ashbyhq.com/demo/demo-0153
+demo-0154,Dorothy Jacobs,San Francisco State University,dorothy.jacobs@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-dorothy-jacobs'}]",https://app.ashbyhq.com/demo/demo-0154
+demo-0155,Nina Emerson,University of San Francisco,nina.emerson@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-nina-emerson'}]",https://app.ashbyhq.com/demo/demo-0155
+demo-0156,Uma Rosenberg,University of San Francisco,uma.rosenberg@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-uma-rosenberg'}]",https://app.ashbyhq.com/demo/demo-0156
+demo-0157,Nina Nakamura,Queens College,nina.nakamura@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-nina-nakamura'}, {'type': 'GitHub', 'url': 'https://github.com/demo-nina-nakamura'}]",https://app.ashbyhq.com/demo/demo-0157
+demo-0158,Nils Hoffman,Queens College,nils.hoffman@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-nils-hoffman'}]",https://app.ashbyhq.com/demo/demo-0158
+demo-0159,Jane Hayashi,Hofstra University,jane.hayashi@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-jane-hayashi'}, {'type': 'GitHub', 'url': 'https://github.com/demo-jane-hayashi'}]",https://app.ashbyhq.com/demo/demo-0159
+demo-0160,Yara Fontaine,Hofstra University,yara.fontaine@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-yara-fontaine'}, {'type': 'GitHub', 'url': 'https://github.com/demo-yara-fontaine'}]",https://app.ashbyhq.com/demo/demo-0160
+demo-0161,Xavier Choi,Adelphi University,xavier.choi@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-xavier-choi'}]",https://app.ashbyhq.com/demo/demo-0161
+demo-0162,Sanjay Whitfield,Adelphi University,sanjay.whitfield@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-sanjay-whitfield'}, {'type': 'GitHub', 'url': 'https://github.com/demo-sanjay-whitfield'}]",https://app.ashbyhq.com/demo/demo-0162
+demo-0163,Nadia Alvarez,Princeton University,nadia.alvarez@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-nadia-alvarez'}]",https://app.ashbyhq.com/demo/demo-0163
+demo-0164,Rosa Hayashi,Duke University,rosa.hayashi@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-rosa-hayashi'}]",https://app.ashbyhq.com/demo/demo-0164
+demo-0165,Ada Silva,Rice University,ada.silva@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-ada-silva'}, {'type': 'GitHub', 'url': 'https://github.com/demo-ada-silva'}]",https://app.ashbyhq.com/demo/demo-0165
+demo-0166,Quinn Lombardi,Vassar College,quinn.lombardi@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-quinn-lombardi'}]",https://app.ashbyhq.com/demo/demo-0166
+demo-0167,Olga Rosenberg,Barnard College,olga.rosenberg@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-olga-rosenberg'}]",https://app.ashbyhq.com/demo/demo-0167
+demo-0168,Katherine Silva,Pratt Institute,katherine.silva@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-katherine-silva'}, {'type': 'GitHub', 'url': 'https://github.com/demo-katherine-silva'}]",https://app.ashbyhq.com/demo/demo-0168
+demo-0169,Jane Bertrand,SUNY Geneseo,jane.bertrand@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-jane-bertrand'}, {'type': 'GitHub', 'url': 'https://github.com/demo-jane-bertrand'}]",https://app.ashbyhq.com/demo/demo-0169
+demo-0170,Priya Bertrand,Lehman College,priya.bertrand@example.com,[],https://app.ashbyhq.com/demo/demo-0170
+demo-0171,Zane Jacobs,University of Rochester,zane.jacobs@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-zane-jacobs'}]",https://app.ashbyhq.com/demo/demo-0171
+demo-0172,Katherine Abbas,Rochester Institute of Technology,katherine.abbas@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-katherine-abbas'}]",https://app.ashbyhq.com/demo/demo-0172
+demo-0173,Hugo Silva,Tufts University,hugo.silva@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-hugo-silva'}]",https://app.ashbyhq.com/demo/demo-0173
+demo-0174,Bryce Ibrahim,University of Southern California,bryce.ibrahim@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-bryce-ibrahim'}]",https://app.ashbyhq.com/demo/demo-0174
+demo-0175,Karen Tanaka,Arizona State University,karen.tanaka@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-karen-tanaka'}]",https://app.ashbyhq.com/demo/demo-0175
+demo-0176,Hugo Quintero,MIT,hugo.quintero@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-hugo-quintero'}, {'type': 'GitHub', 'url': 'https://github.com/demo-hugo-quintero'}]",https://app.ashbyhq.com/demo/demo-0176
+demo-0177,Wanda Jacobs,nyu,wanda.jacobs@example.com,"[{'type': 'GitHub', 'url': 'https://github.com/demo-wanda-jacobs'}]",https://app.ashbyhq.com/demo/demo-0177
+demo-0178,Hugo Kowalski,UC Berkeley,hugo.kowalski@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-hugo-kowalski'}]",https://app.ashbyhq.com/demo/demo-0178
+demo-0179,Sofia Fontaine,Georgia Tech,sofia.fontaine@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-sofia-fontaine'}]",https://app.ashbyhq.com/demo/demo-0179
+demo-0180,Nadia Choi,"Yale University, College of Arts and Sciences",nadia.choi@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-nadia-choi'}]",https://app.ashbyhq.com/demo/demo-0180
+demo-0181,Hedy Farrell,NYU School of Professional Studies,hedy.farrell@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-hedy-farrell'}]",https://app.ashbyhq.com/demo/demo-0181
+demo-0182,Marvin Petrov,Baruch College / Hunter College,marvin.petrov@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-marvin-petrov'}]",https://app.ashbyhq.com/demo/demo-0182
+demo-0183,Donald Bennett,Harvard Extension School,donald.bennett@example.com,[],https://app.ashbyhq.com/demo/demo-0183
+demo-0184,Sanjay Hoffman,Harvard Business School,sanjay.hoffman@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-sanjay-hoffman'}, {'type': 'GitHub', 'url': 'https://github.com/demo-sanjay-hoffman'}]",https://app.ashbyhq.com/demo/demo-0184
+demo-0185,Olga Dubois,Riverside Senior High School,olga.dubois@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-olga-dubois'}]",https://app.ashbyhq.com/demo/demo-0185
+demo-0186,Priya Ibrahim,The University,priya.ibrahim@example.com,[],https://app.ashbyhq.com/demo/demo-0186
+demo-0187,Rafael Nakamura,University of California,rafael.nakamura@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-rafael-nakamura'}]",https://app.ashbyhq.com/demo/demo-0187
+demo-0188,Quinn Zhang,,quinn.zhang@example.com,[],https://app.ashbyhq.com/demo/demo-0188
+demo-0189,Leslie Bennett,CARNEGIE MELLON UNIVERSITY,leslie.bennett@example.com,"[{'type': 'LinkedIn', 'url': 'https://linkedin.com/in/demo-leslie-bennett'}]",https://app.ashbyhq.com/demo/demo-0189
+demo-0190,Olga Emerson,"Duke University, Trinity College of Arts and Sciences",olga.emerson@example.com,[],https://app.ashbyhq.com/demo/demo-0190
+demo-0191,Marvin Jensen,mit,marvin.jensen@example.com,"[{'type': 'Website', 'url': 'https://example.com/demo'}]",https://app.ashbyhq.com/demo/demo-0001

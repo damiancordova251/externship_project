@@ -1,6 +1,20 @@
-"""HTML template for the Campus Recruiting Directory. __DATA__ is replaced with
-the JSON payload by build_directory.py. Data is rendered via textContent in JS,
-so candidate values never inject markup."""
+"""
+The Campus Recruiting Directory page — markup, styles, and behavior, held as a
+single template string.
+
+It lives in its own module purely to keep build_directory.py readable; nothing
+here is executed at import time. build_directory.py substitutes two
+placeholders and writes the result:
+
+    __DATA__            the whole directory payload, as inlined JSON
+    __RANKING_SOURCE__  attribution text for the Top-100 inclusion set
+
+The output is deliberately self-contained — no server, no build step, no network
+fetches — so the page can be opened straight from disk and handed to a recruiter.
+
+Security note: every candidate value is rendered through `textContent`, never
+`innerHTML`, so a name or school string can never inject markup into the page.
+"""
 
 TEMPLATE = r"""<!DOCTYPE html>
 <html lang="en">

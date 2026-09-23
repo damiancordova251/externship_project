@@ -1,0 +1,18 @@
+# Full local pipeline. Install into a virtualenv:
+#   python3 -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt
+
+# Ashby API calls + career-fair page fetches (every stage).
+requests>=2.31
+
+# HTML parsing for the career-fair scraper and source discovery.
+beautifulsoup4>=4.12
+
+# CSV wrangling for the Ashby export and the directory build.
+# NOTE: only build_directory.py / enrich_resumes.py / extract_ashby.py need
+# this. scrape_fairs.py deliberately does not, so the weekly GitHub Action
+# installs just requests + beautifulsoup4.
+pandas>=2.0
+
+# Resume text extraction (enrich_resumes.py only).
+pdfplumber>=0.11

@@ -9,41 +9,46 @@ For each hired candidate, this:
      (the transfer / community-college problem, e.g. "Mesa Community College"
       in the field vs. "Northern Arizona University" on the resume)
 
-It does NOT silently overwrite anything. It writes a review file plus
-conservative override *suggestions* for you to approve; approved fixes go into
-ashby_overrides.json, which build_directory.py already applies.
+It never silently overwrites anything — an automated guess about someone's
+education is exactly the kind of thing that should need a human's sign-off. It
+writes a review file plus conservative override *suggestions*; approved fixes
+get copied into private/ashby_overrides.json, which build_directory.py applies.
 
-Run:  python3 enrich_resumes.py        (needs Ashby API key + network)
-Deps: pip install requests pandas pdfplumber
+Run:  python pipeline/enrich_resumes.py   (needs an Ashby API key + network)
 
-Outputs (git-ignored - contain PII):
-  ashby_resume_review.csv          one row per candidate: field vs resume + status
-  ashby_override_suggestions.json  suggested {id: real_school} for clear mismatches
+Outputs (git-ignored — they contain PII):
+  private/ashby_resume_review.csv          one row per candidate: field vs resume
+  private/ashby_override_suggestions.json  {id: real_school} for clear mismatches
 """
 
-import requests
-import pandas as pd
-import ast, json, re, io, time
-from getpass import getpass
+import ast
+import io
+import json
+import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from getpass import getpass
+
+import pandas as pd
+import requests
 
 try:
     import pdfplumber
 except ImportError:
-    raise SystemExit("Missing dependency. Run:  pip install pdfplumber")
+    raise SystemExit("Missing dependency. Run:  pip install -r requirements.txt")
 
-# Reuse the exact school lists + normalizers the directory uses.
-from build_directory import (TOP_NATIONAL, NY_FOUR_YEAR, SF_FOUR_YEAR,
-                             norm_key, canonicalize)
+import paths
+# Reuse the exact school lists + normalizers the directory uses, so a school
+# recognized here is guaranteed to be recognized there.
+from target_schools import (NY_FOUR_YEAR, SF_FOUR_YEAR, TOP_NATIONAL,
+                            canonicalize, norm_key)
 
-CSV = "ashby_candidate_list.csv"
 BASE_URL = "https://api.ashbyhq.com"
 CONCURRENCY = 8
 REQUEST_TIMEOUT = 45
 
-API_KEY = getpass("Paste your Ashby API key: ")
+# Shared connection pool. Credentials are attached in main(), not here, so
+# importing this module never prompts for a key.
 session = requests.Session()
-session.auth = (API_KEY, "")
 
 
 def parse(v):
@@ -212,7 +217,16 @@ def analyze(row, known, real):
 
 
 def main():
-    df = pd.read_csv(CSV, low_memory=False)
+    # Prompted rather than read from the environment: this key can read every
+    # candidate record in the ATS, so it should never sit in a shell history
+    # file or a committed .env.
+    session.auth = (getpass("Paste your Ashby API key: "), "")
+
+    try:
+        df = pd.read_csv(paths.CANDIDATES_CSV, low_memory=False)
+    except FileNotFoundError:
+        raise SystemExit(f"Missing input: {paths.CANDIDATES_CSV}\n"
+                         f"  Export it first with: python pipeline/extract_ashby.py")
     known = build_known(df)
     real = build_real(df)
     rows = df.to_dict("records")
@@ -230,23 +244,24 @@ def main():
             if i % 50 == 0 or i == len(rows):
                 print(f"  {i}/{len(rows)}")
 
+    paths.ensure_private()
     review = pd.DataFrame(out).sort_values(
         ["status", "ashby_school", "name"], na_position="last")
-    review.to_csv("ashby_resume_review.csv", index=False)
+    review.to_csv(paths.RESUME_REVIEW, index=False)
 
     suggestions = {r["candidate_id"]: r["suggested_override"]
                    for r in out if r["suggested_override"]}
-    with open("ashby_override_suggestions.json", "w") as f:
-        json.dump(suggestions, f, indent=2)
+    paths.OVERRIDE_SUGGESTIONS.write_text(json.dumps(suggestions, indent=2) + "\n")
 
     counts = review["status"].value_counts().to_dict()
     print("\n=== summary ===")
     for k, v in counts.items():
         print(f"  {k}: {v}")
     print(f"\nMismatches with a confident fix (suggested overrides): {len(suggestions)}")
-    print("Wrote ashby_resume_review.csv and ashby_override_suggestions.json")
-    print("\nNext: review those files. To apply a fix, copy the id->school entry")
-    print("into ashby_overrides.json, then re-run  python3 build_directory.py")
+    print(f"Wrote {paths.RESUME_REVIEW.name} and {paths.OVERRIDE_SUGGESTIONS.name}")
+    print(f"\nNext: review those files. To apply a fix, copy the id->school entry")
+    print(f"into {paths.SCHOOL_OVERRIDES.name}, then re-run:")
+    print(f"  python pipeline/build_directory.py")
 
 
 if __name__ == "__main__":

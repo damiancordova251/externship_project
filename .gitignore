@@ -1,13 +1,19 @@
-# Raw hiring data pulled from Ashby — contains candidate PII, never commit
-ashby_*.csv
+# Everything derived from Ashby lives here: candidate CSVs, resume audits,
+# the current-employee roster, and the generated directory page. All of it is
+# PII. The whole directory is ignored so a new output file can never be
+# committed by accident.
+private/
+!private/.gitkeep
 
-# Generated directory page — contains real candidate names/contacts (PII)
-campus-recruiting-directory.html
+# Local virtualenv
+.venv/
+venv/
 
 # Python
 __pycache__/
 *.pyc
-.venv/
 
-# Current-employee roster (employee PII)
+# Legacy locations — kept so an older checkout can't re-commit real data.
+ashby_*.csv
+campus-recruiting-directory.html
 current_employees.json

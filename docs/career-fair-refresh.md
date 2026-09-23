@@ -1,8 +1,8 @@
 # Keeping career-fair dates fresh
 
-The directory (`campus-recruiting-directory.html`) shows each school's **upcoming**
+The directory (`private/campus-recruiting-directory.html`) shows each school's **upcoming**
 general and tech/STEM career fairs. It never hard-codes a "next fair" date: the
-data lives in `career_fairs.json`, and the page recomputes each school's next
+data lives in `data/career_fairs.json`, and the page recomputes each school's next
 fair against *today's* date every time it loads.
 
 That gives two layers of "automatic":
@@ -18,20 +18,20 @@ takes its place. A school with no upcoming fair simply shows none.
 ### Data flow
 
 ```
-scripts/scrape_fairs.py   ──►  career_fairs.json   ──►  build_directory.py  ──►  campus-recruiting-directory.html
-   (weekly GitHub Action)      (source of truth,          (inlines fairs +          (generated, PII, gitignored —
-                                committed, no PII)          hires per school)         never committed)
+pipeline/scrape_fairs.py  ──►  data/career_fairs.json  ──►  pipeline/build_directory.py  ──►  private/campus-recruiting-directory.html
+  (weekly GitHub Action)       (source of truth,             (inlines fairs +                (generated, contains PII,
+                                committed, no PII)            hires per school)               git-ignored — never committed)
 ```
 
-`career_fairs.json` is the **single source of truth**. `build_directory.py`
+`data/career_fairs.json` is the **single source of truth**. `pipeline/build_directory.py`
 reads it, matches each fair to a school by normalized name, and inlines the
 upcoming fairs into the generated page. The scraper only ever writes the JSON;
-regenerate the directory with `python3 build_directory.py` to pick up changes
+regenerate the directory with `python pipeline/build_directory.py` to pick up changes
 (that step needs the Ashby CSV, so it runs locally, not in CI).
 
 ### What's implemented
 
-- **`scripts/scrape_fairs.py`** — for every college in `career_fairs.json`,
+- **`pipeline/scrape_fairs.py`** — for every college in `data/career_fairs.json`,
   fetches that college's known `source` page(s), extracts upcoming fair dates,
   and MERGES new ones into the JSON. The merge is additive (dedupes by
   college+date, only adds `date >= today`), and it **prunes** fairs that have
@@ -41,7 +41,7 @@ regenerate the directory with `python3 build_directory.py` to pick up changes
   preview, `--no-net` to exercise only the merge/write path.
 - **`.github/workflows/refresh-fairs.yml`** — runs the scraper weekly
   (Mondays 13:00 UTC) and on manual dispatch, then commits any change to
-  `career_fairs.json`.
+  `data/career_fairs.json`.
 
 ### Honest limits (read before trusting it)
 
@@ -50,13 +50,13 @@ regenerate the directory with `python3 build_directory.py` to pick up changes
   — the extractor just moves on, so those schools keep their curated rows.
 - **Name quality varies.** The generic extractor grabs imperfect fair names
   (often just "Career fair"). Add a site-specific function to the `EXTRACTORS`
-  registry in `scrape_fairs.py` to fix a given site.
+  registry in `pipeline/scrape_fairs.py` to fix a given site.
 - **Parsers break on redesigns.** Review the automated commits the Action pushes;
   auto rows are tagged `"auto": true`.
 - **Login-gated holdouts are manual.** Schools whose dates live only behind a
   school login / bot wall are listed in `MANUAL_COLLEGES` and skipped entirely,
   so the scraper never overwrites hand-entered rows. Maintain those by editing
-  curated (non-`auto`) rows in `career_fairs.json` once per recruiting season.
+  curated (non-`auto`) rows in `data/career_fairs.json` once per recruiting season.
   `University of Michigan` is currently the only such holdout (its career-center
   site returns 403 to bots).
 
@@ -78,10 +78,10 @@ regenerate the directory with `python3 build_directory.py` to pick up changes
 
 - `college` uses the **official school name** (matches the directory's school
   list). Known aliases (`"MIT"`, `"UC Berkeley"`, …) also resolve, because
-  `build_directory.py` normalizes feed names through the same alias/official map
+  `pipeline/build_directory.py` normalizes feed names through the same alias/official map
   it uses for the Ashby data.
 - `date` must be ISO `YYYY-MM-DD`.
 - A school may have any number of fairs; the page derives the next one.
 
 Schools that appear in the feed but aren't top-100 / NY / SF are tracked via the
-`EXTRA_TRACKED` list in `build_directory.py` so they still get a directory row.
+`EXTRA_TRACKED` list in `pipeline/target_schools.py` so they still get a directory row.

@@ -27,9 +27,13 @@ Design notes / honest limits
 
 Usage
 -----
-    python scripts/scrape_fairs.py            # scrape + write
-    python scripts/scrape_fairs.py --dry-run  # scrape, print what WOULD change
-    python scripts/scrape_fairs.py --no-net   # skip network (merge/write path only)
+    python pipeline/scrape_fairs.py            # scrape + write
+    python pipeline/scrape_fairs.py --dry-run  # scrape, print what WOULD change
+    python pipeline/scrape_fairs.py --no-net   # skip network (merge/write path only)
+
+This is the only script that runs unattended (weekly, in GitHub Actions), so it
+deliberately depends on nothing but requests + beautifulsoup4 — no pandas, no
+API keys, no candidate data.
 """
 
 from __future__ import annotations
@@ -41,10 +45,12 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-JSON_PATH = ROOT / "career_fairs.json"
-SOURCES_PATH = ROOT / "fair_sources.json"          # curated, reviewed source URLs
-PENDING_PATH = ROOT / "fair_sources_pending.json"  # discovery output awaiting review
+import paths
+
+ROOT = paths.ROOT
+JSON_PATH = paths.CAREER_FAIRS                 # source of truth for fairs
+SOURCES_PATH = paths.FAIR_SOURCES              # curated, reviewed source URLs
+PENDING_PATH = paths.FAIR_SOURCES_PENDING      # discovery output awaiting review
 
 # Discovery is self-throttled to ~monthly (the Action itself runs weekly). Free
 # search-API tiers are small, so each run caps its queries and rotates through
@@ -533,20 +539,10 @@ def _read_json(path: Path, default):
 
 def discovery_targets() -> list[str]:
     """The curated target schools (Top-100 / NY / SF / extra) to search for.
-    Loaded from build_directory so the two never drift. No candidate PII."""
-    try:
-        sys.path.insert(0, str(ROOT))
-        from build_directory import (  # type: ignore
-            TOP_NATIONAL, NY_FOUR_YEAR, SF_FOUR_YEAR, EXTRA_TRACKED)
-    except Exception as e:  # noqa: BLE001
-        print(f"  ! discovery: cannot load school lists ({e})", file=sys.stderr)
-        return []
-    seen, out = set(), []
-    for n in TOP_NATIONAL + NY_FOUR_YEAR + SF_FOUR_YEAR + EXTRA_TRACKED:
-        if n not in seen:
-            seen.add(n)
-            out.append(n)
-    return out
+    Shared with the directory builder via target_schools, so the two can never
+    drift apart. Contains no candidate PII."""
+    from target_schools import ALL_TARGETS
+    return list(ALL_TARGETS)
 
 
 _NEG_DOMAIN = re.compile(

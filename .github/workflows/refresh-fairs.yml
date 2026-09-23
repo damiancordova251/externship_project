@@ -1,9 +1,9 @@
 name: Refresh career fairs
 
 # Scrapes each college's career-center page and commits any newly-found upcoming
-# fairs into career_fairs.json (the single source of truth). The directory page
+# fairs into data/career_fairs.json (the single source of truth). The directory page
 # is regenerated from that JSON by build_directory.py and is never committed
-# (it contains candidate PII), so this job only touches career_fairs.json.
+# (it contains candidate PII), so this job only touches data/career_fairs.json.
 #
 # Runs weekly and can be triggered manually from the Actions tab.
 
@@ -30,7 +30,9 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+        # Only the scraper's two dependencies — it is kept free of pandas so CI
+        # stays fast and the job can't fail on a data-science install.
+        run: pip install "requests>=2.31" "beautifulsoup4>=4.12"
 
       - name: Scrape fairs + monthly discovery
         # Scraping runs every week. The discovery step self-throttles to ~monthly
@@ -41,15 +43,15 @@ jobs:
           BING_SEARCH_KEY: ${{ secrets.BING_SEARCH_KEY }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
-        run: python scripts/scrape_fairs.py
+        run: python pipeline/scrape_fairs.py
 
       - name: Commit changes if any
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add career_fairs.json
-          [ -f fair_sources_pending.json ] && git add fair_sources_pending.json || true
-          [ -f fair_sources.json ] && git add fair_sources.json || true
+          git add data/career_fairs.json
+          [ -f data/fair_sources_pending.json ] && git add data/fair_sources_pending.json || true
+          [ -f data/fair_sources.json ] && git add data/fair_sources.json || true
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

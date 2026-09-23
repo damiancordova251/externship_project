@@ -1,5 +1,0 @@
-requests>=2.31
-beautifulsoup4>=4.12
-# Needed by the monthly discovery step: it imports build_directory (which uses
-# pandas) to load the target school list. Scraping itself doesn't need pandas.
-pandas>=2.0
